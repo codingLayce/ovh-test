@@ -3,7 +3,8 @@
 ```
 # echo : writes to the standard output
 # exit : stop the execution and return the given code
-# IPDifferenciesMetric : metric definied using something like Prometheus
+# len : returns the length of the given array
+# IPDifferenciesMetric : metric defined using something like Prometheus
 
 func main(args) {
     if len(args) != 2 { # Check that the args are valid (program name + addresses)
